@@ -1,0 +1,31 @@
+.table {
+  border-collapse: collapse;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.table thead tr th {
+  padding: 4px;
+  color: rgb(104, 104, 252);
+}
+.table thead tr td {
+  padding: 4px;
+  text-align: center;
+}
+.edit {
+  padding: 8px;
+  background-color: rgb(97, 97, 252);
+  color: white;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+.delete {
+  padding: 8px;
+  background-color: rgb(247, 62, 62);
+  color: white;
+  border-radius: 2px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}

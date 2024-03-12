@@ -1,0 +1,27 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main_layout {
+  position: relative;
+}
+.main_layout_footer {
+  position: absolute;
+  /* top: 1000px; */
+  bottom: 0px;
+}
+
+.children {
+  min-height: 40vh;
+}
+/* inputs styles */
+.contact_input {
+  padding: 10px;
+  border: none;
+  background-color: rgb(241, 239, 239);
+  outline: none;
+  border-radius: 4px;
+  width: 240px;
+}

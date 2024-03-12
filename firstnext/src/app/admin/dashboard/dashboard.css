@@ -1,0 +1,12 @@
+.sideNav {
+  width: 300px;
+  border-right: 1px solid grey;
+  height: 400px;
+}
+.main_dashboard {
+  display: flex;
+  flex-direction: row;
+}
+.dynamic_content {
+  padding-left: 30px;
+}

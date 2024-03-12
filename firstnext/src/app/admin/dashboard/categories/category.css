@@ -1,0 +1,33 @@
+.category_main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* align-items: center; */
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+.category_div {
+  width: 400px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.category_div span {
+  color: red;
+  font-size: 12px;
+}
+.category_main input {
+  padding: 9px;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(226, 224, 224);
+}
+.category_main button {
+  padding: 9px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(106, 106, 247);
+  color: white;
+  cursor: pointer;
+}

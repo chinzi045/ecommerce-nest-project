@@ -1,0 +1,134 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  list-style: none;
+  /* background-color: skyblue; */
+  margin: 0px;
+  padding: 0px;
+  padding: 12px;
+  /* font-size: 22px; */
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+  border-bottom: 1px solid rgb(236, 233, 233);
+  width: 100%;
+  width: inherit;
+  position: relative;
+  /* border: 1px solid black; */
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1.5rem;
+  /* height: 70px; */
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  width: 300px;
+  /* border: 1px solid black; */
+}
+.ul li {
+  padding: 0px;
+  margin: 0px;
+}
+.ul_Link {
+  text-decoration: none;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+}
+.ul_Link1 {
+  text-decoration: none;
+  color: black;
+}
+.ul_Link1:hover {
+  border-bottom: 2px solid rgb(201, 35, 35);
+}
+.icons_div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+.input {
+  border: none;
+  background-color: rgb(240, 238, 238);
+  border-radius: 5px;
+  padding: 6px 18px;
+  /* color: white; */
+  outline: none;
+}
+.input_div {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  position: absolute;
+  right: 5px;
+  /* top: 1px; */
+  padding-left: 5px;
+  /* overflow: hidden; */
+  cursor: pointer;
+  border: none;
+}
+.hamberger {
+  display: none;
+}
+.cancel {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .ul {
+    flex-direction: column;
+    width: 0px;
+    position: absolute;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    height: 100vw;
+    background-color: grey;
+    margin-top: 0;
+    z-index: 1;
+    transform: translateX(-55px);
+
+    transition: 0.4s;
+  }
+  .ul_Link {
+    width: 70px;
+    text-overflow: clip;
+    /* background-color: white; */
+  }
+
+  .cancel {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .icons {
+    display: none;
+  }
+  .hamberger {
+    display: block;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 450px; */
+    box-sizing: border-box;
+  }
+  .input_div {
+    display: flex;
+  }
+}

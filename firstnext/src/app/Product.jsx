@@ -1,0 +1,53 @@
+import { CiHeart } from "react-icons/ci";
+import { FaEye } from "react-icons/fa";
+import { RiDeleteBin5Line } from "react-icons/ri";
+export const Product = [
+  {
+    id: 1,
+    img: "./home/Frame_611.png",
+    name: "Havetit HV56 GamePad",
+    nprice: "$55",
+    oprice: "$79",
+    heart: <CiHeart />,
+    eye: <FaEye />,
+    off: "20%",
+    delete: <RiDeleteBin5Line />,
+    quantity: 12,
+  },
+  {
+    id: 2,
+    img: "./home/Frame_612.png",
+    name: "Havetit HV56 GamePad",
+    nprice: "$18",
+    oprice: "$22",
+    heart: <CiHeart />,
+    eye: <FaEye />,
+    off: "25%",
+    delete: <RiDeleteBin5Line />,
+    quantity: 12,
+  },
+  {
+    id: 3,
+    img: "./home/Frame_613.png",
+    name: "Havetit HV56 GamePad",
+    nprice: "$12",
+    oprice: "$17",
+    heart: <CiHeart />,
+    eye: <FaEye />,
+    off: "33%",
+    delete: <RiDeleteBin5Line />,
+    quantity: 3,
+  },
+  {
+    id: 4,
+    img: "./home/Frame_614.png",
+    name: "Havetit HV56 GamePad",
+    nprice: "$12",
+    oprice: "$19",
+    heart: <CiHeart />,
+    eye: <FaEye />,
+    off: "12%",
+    delete: <RiDeleteBin5Line />,
+    quantity: 1,
+  },
+];

@@ -1,0 +1,112 @@
+.whishlist_1 {
+  width: 1200px;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* background-color: black; */
+}
+.whishlist_child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.whishlist_child_1 {
+  width: 100px;
+  height: 30px;
+  border-left: 7px solid rgb(243, 48, 48);
+  border-radius: 2px;
+  margin-right: 12px;
+  /* background-color: ; */
+}
+.whishlist_btn {
+  width: 223px;
+  height: 56px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+}
+.whishlist_cart_div {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.whishlist_cart {
+  width: 270px;
+  height: 322px;
+  /* border: 1px solid black; */
+  /* background-color: black; */
+}
+.thumbnail {
+  position: relative;
+  height: 220px;
+  background-color: rgb(250, 247, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.thumbnail img {
+  width: 178px;
+  height: 129px;
+}
+.thumbnail div {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: white;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.thumbnail span {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color: rgb(247, 42, 42);
+  width: 55px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  color: white;
+  border-radius: 3px;
+}
+.thumbnail button {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 41px;
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.descprition {
+  /* height: 100px; */
+  /* background-color: black; */
+}
+.descprition h5 {
+  /* margin: 0px; */
+}
+.descprition div {
+  font-size: 13px;
+  color: rgb(252, 45, 45);
+}
+.btn_2 {
+  width: 150px;
+  height: 56px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+}

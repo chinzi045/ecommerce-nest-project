@@ -1,0 +1,23 @@
+.main_notfound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4%;
+}
+.main_notfound_h1 {
+  font-size: 50px;
+}
+.main_notfound_button {
+  background-color: rgb(199, 64, 64);
+  border: none;
+  color: white;
+  padding: 9px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,8 @@
+.product_table {
+  border-collapse: collapse;
+  width: 1000px;
+}
+.product_table tbody tr td {
+  /* background-color: blac; */
+  text-align: center;
+}

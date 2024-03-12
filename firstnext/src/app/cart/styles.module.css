@@ -1,0 +1,178 @@
+.cart_row {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  width: 1100px;
+  border: 1px solid rgb(235, 233, 233);
+  /* background-color: black; */
+  margin: auto;
+  height: 60px;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 12rem;
+  margin: 24px;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.cart_row td {
+  width: 200px;
+  /* border: 1px solid black; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart_row:hover {
+  background-color: rgb(248, 52, 52);
+  color: white;
+  /* cursor: pointer; */
+}
+.table {
+  width: 1100px;
+  margin: auto;
+  margin-top: 40px;
+}
+.image_td {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 60px;
+  font-size: 11px;
+}
+.icon_cross {
+  position: absolute;
+  /* top: 12px; */
+  /* left: 12px; */
+  top: 4px;
+  left: -14px;
+  color: rgb(245, 68, 68);
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn_div {
+  display: flex;
+  width: 1150px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.btn_div button {
+  width: 218px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  border: 1px solid rgb(155, 151, 151);
+}
+.btn_div button:hover {
+  background-color: rgb(248, 52, 52);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.coupon_div {
+  width: 1150px;
+  margin: auto;
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.coupon_btn {
+  width: 527px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.coupon_btn button {
+  background-color: rgb(248, 37, 37);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  width: 211px;
+  height: 56px;
+  cursor: pointer;
+}
+/* .coupon_btn button:hover {
+  background-color: rgb(247, 45, 45);
+  color: white;
+} */
+.coupon_btn input {
+  width: 300px;
+  height: 51px;
+  outline: none;
+  border-radius: 4px;
+  padding-left: 8px;
+}
+.total_sum {
+  width: 470px;
+  height: 324px;
+  border: 2px solid rgb(187, 183, 183);
+  border-radius: 4px;
+  padding: 15px;
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  justify-content: space-between;
+  width: 460px;
+  border-bottom: 1px solid rgb(173, 169, 169);
+}
+.total_sum button {
+  width: 260px;
+  height: 56px;
+  color: white;
+  background-color: rgb(250, 48, 48);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 30px;
+}
+/* .header td {
+  margin-left: 40px;
+} */
+
+.cart_row1 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  width: 1100px;
+  border: 1px solid rgb(235, 233, 233);
+  /* background-color: black; */
+  margin: auto;
+  height: 60px;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 12rem;
+  margin: 24px;
+  justify-content: space-between;
+}
+.cart_row1 td {
+  /* margin-left: 100px; */
+}
+.quantity {
+  border: 1px solid black;
+  width: 72px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.up_down {
+  display: flex;
+  flex-direction: column;
+  font-size: 8px;
+}
